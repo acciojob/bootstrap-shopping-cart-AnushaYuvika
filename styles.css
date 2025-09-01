@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.block-heading {
+/* .block-heading {
       padding: 20px 0;
       text-align: center;
     }
@@ -42,4 +42,28 @@
 .row {
 	border: 1px solid lightgray;
 	background-color: white;
+} */
+
+
+
+
+.summary {
+  background-color: #f7fbff;
+  border-top: 2px solid #5ea4f3;
+  padding: 20px;
+}
+
+.summary .d-flex {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.summary .d-flex:last-child {
+  border-bottom: none; 
+}
+
+.summary button {
+  background-color: #3b99e0;
+  border: none;
+  text-transform: lowercase;
 }
